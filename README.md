@@ -1,6 +1,26 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
+  <img alt="Kinoko. Many sessions. One connected network. Your Claude Code and Codex sessions, side by side, on your Mac." src="assets/hero-light.png">
+</picture>
+
 # Kinoko
 
-Your Claude Code and Codex sessions, side by side, on your Mac.
+Kinoko is a Mac app that runs your Claude Code and Codex sessions side by side. It doesn't replace them: it runs the real command-line tools with your own logins, and connects the sessions. Everything runs on your Mac. There are no API keys to paste, and nothing is written to your agent settings.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ui-dark.png">
+  <img alt="The Kinoko window: sessions in a sidebar, one session in front with a Since you left card and a selection bar, the side panel with pins, side threads and artifacts, and a document open for review" src="assets/ui-light.png">
+</picture>
+
+## What it does
+
+- **All your sessions in one window.** Claude Code and Codex, each with its own profile (for example, work and personal), in a sidebar that shows which ones need you.
+- **Since you left.** Come back to a short summary of what a session did while you were away.
+- **Side threads.** Ask a side question about any reply or selected passage without interrupting the main session.
+- **Answer the agent's questions in a form.** When the agent asks several things at once, answer them one by one and send them back together.
+- **Pins.** Keep a plan, checklist or passage in view. Tick items off as the work moves.
+- **Artifacts and review.** Every file a session writes shows up next to it, rendered. Comment on a passage or edit it in place, then send your comments to the session in one go.
+- **Fork.** Branch a session into a new one that carries the context forward.
 
 This repository holds Kinoko's releases and its Homebrew cask. The app's source isn't public.
 
