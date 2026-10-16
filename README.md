@@ -2,8 +2,6 @@
 
 Your Claude Code and Codex sessions, side by side, on your Mac.
 
-**Website:** https://getkinoko.vercel.app
-
 This repository holds Kinoko's releases and its Homebrew cask. The app's source isn't public.
 
 ## Install
