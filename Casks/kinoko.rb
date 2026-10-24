@@ -1,6 +1,6 @@
 cask "kinoko" do
-  version "0.1.0"
-  sha256 "f2efef94d13062cd1fd6a623318e0055976693b140929361a8f0c45eb4310061"
+  version "0.1.1"
+  sha256 "479d307f195ebc236de1cb31707fef79a0d455d9016f6488e7aa09e36d52652b"
 
   url "https://github.com/alextacho/kinoko/releases/download/v#{version}/Kinoko-#{version}.dmg"
   name "Kinoko"
@@ -11,11 +11,6 @@ cask "kinoko" do
   depends_on arch: :arm64
 
   app "Kinoko.app"
-
-  # Not notarized yet: without this, macOS blocks the first launch.
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Kinoko.app"]
-  end
 
   zap trash: [
     "~/Library/Application Support/Kinoko",
