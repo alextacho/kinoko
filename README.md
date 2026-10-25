@@ -39,14 +39,11 @@ Update with `brew upgrade --cask kinoko`.
 
 Requires macOS 14 (Sonoma) or later on Apple silicon.
 
-## First launch
+## Before you start
 
-Early builds aren't notarized by Apple yet, so macOS blocks the first launch of a downloaded copy with "Apple could not verify Kinoko is free of malware". To open it:
+Kinoko runs the agents you already use, so you'll need [Claude Code](https://docs.claude.com/en/docs/claude-code) and/or [Codex CLI](https://github.com/openai/codex) installed and logged in.
 
-1. Open Kinoko once and dismiss the warning.
-2. Go to **System Settings → Privacy & Security**, scroll down, and click **Open Anyway**.
-
-The Homebrew install doesn't show this warning.
+Kinoko is signed and notarized by Apple, so it opens without a security warning.
 
 ## Feedback
 
