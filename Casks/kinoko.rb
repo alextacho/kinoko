@@ -1,6 +1,6 @@
 cask "kinoko" do
-  version "0.1.2"
-  sha256 "fb2a309dfc0f51ef65f4ab3c610b4e937a8d359805544063f63c36de057f3824"
+  version "0.1.3"
+  sha256 "73aa032c14e31b8b3b6ad0f089b6d3ffe623fe3f2d06e06f68a667adf7372d65"
 
   url "https://github.com/alextacho/kinoko/releases/download/v#{version}/Kinoko-#{version}.dmg"
   name "Kinoko"
